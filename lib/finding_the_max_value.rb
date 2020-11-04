@@ -3,8 +3,8 @@ def find_max_value(array)
   starting_value = array[0]
   length.times do |index|
     if array[index] > starting_value
-      value_to_find = array[index]
+      starting_value = array[index]
     end
   end
-  value_to_find
+  starting_value
 end
